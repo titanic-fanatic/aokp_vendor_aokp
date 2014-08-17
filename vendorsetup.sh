@@ -1,3 +1,4 @@
+add_lunch_combo aokp_celoxhd-eng
 add_lunch_combo aokp_hammerhead-userdebug
 add_lunch_combo aokp_mako-userdebug
 add_lunch_combo aokp_flo-userdebug

@@ -44,7 +44,7 @@ then
        TARGET_BUILD_VARIANT="eng"
     fi
 
-    APKCERTS=$OUT/obj/PACKAGING/target_files_intermediates/$TARGET_PRODUCT-target_files-$TARGET_BUILD_VARIANT.$USER/META/apkcerts.txt
+    APKCERTS=$OUT/obj/PACKAGING/target_files_intermediates/$TARGET_PRODUCT-target_files-$BUILD_NUMBER/META/apkcerts.txt
     if [ ! -f "$APKCERTS" ];
     then
         echo -e $CL_RED"Set APKCERTS to the path to your apkcerts.txt file"$CL_RST
